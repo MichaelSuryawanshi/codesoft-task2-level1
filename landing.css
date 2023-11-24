@@ -1,0 +1,177 @@
+header{
+    background: linear-gradient(90deg, rgba(18,195,27,1) 10%, rgba(237,221,17,1) 30%, rgba(0,94,255,1) 50%, rgba(0,212,255,1) 70%, rgba(0,255,86,1) 90%);
+}
+nav{
+    background-color: rgb(200, 69, 51);
+    
+}
+li
+{
+display: inline-block;
+list-style-type:none;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.container{
+    margin-top: 0;
+     text-align: center;
+ 
+    background-image: url(pic1.jpg);
+
+    background-color: rgb(129, 185, 179);
+    background-blend-mode: lighten;
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  background-repeat: none ;
+  text-decoration: solid;
+}
+h1 {
+    padding-top: 100px;
+}
+input[type='search']{
+    background-color: rgb(200, 70, 50);
+    border: none;
+}
+#read{
+    background-color: orangered;
+    border-radius: 12px;
+}
+ .container-box button{
+    background-color: transparent;
+    border-radius: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+
+   
+}
+ul button{
+    background-color: transparent;
+    border-radius: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.container-box p{
+font-weight: bolder;
+}
+.container-box{
+    padding-top: 300px;
+}
+.details{
+    display: flex;
+    padding: 20px;
+    padding-bottom: 50px;
+
+}
+.details button{
+    background-color:transparent;
+    border-radius: 12px;
+}
+.aboutus{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+}
+footer{
+    background-color: #e1e1de;
+    background-image: url("globe.jpg");
+    background-size:cover ;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-blend-mode:lighten ;
+
+ 
+}
+
+.social{
+    display: inline-block;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.social i{
+     padding: 10px;
+     cursor: pointer;
+     border-left:solid ;
+     border-top: 100%;
+     
+}
+#phone{
+    margin-left: 600px;
+}
+@media (max-width:1100px) {
+
+    #phone{
+    margin-left: 0;
+
+}
+.aboutus{
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+}
+#aboutus{
+    width: 300px;
+    margin-top: 200px;
+}
+.service{
+    display:list-item;
+}
+.service img{
+    width: 500px;
+    
+}
+}
+@media (min-width:1100px) and(max-width:1400px) {
+
+    #phone{
+    margin-left: 20px;
+}
+#aboutus{
+    width: 100px;
+    margin-top: 200px;
+}
+}
+button:hover{
+  background-color: yellow;
+}
+.service{
+    display:flex;
+    margin-left: 30px;
+}
+.service span{
+    margin-right: 60px;
+    
+}
+.service img{
+    width: 400px;
+    height: 300px;
+}
+@media (max-width:700px) {
+    .service img{
+        width: 700px;
+        display: list-item;
+        
+    }
+}
+@media (min-width:700px) and (max-width:1000px) {
+    .service img{
+        width: 700px;
+        display: list-item;
+        
+    }
+}
+#exp{
+    text-transform: uppercase;
+    color: orange;
+    border: solid red;
+    background-color: blue;
+    border-radius:12px;
+    padding-left: -120px;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
